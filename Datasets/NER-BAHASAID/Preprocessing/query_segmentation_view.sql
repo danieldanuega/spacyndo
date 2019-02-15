@@ -1,12 +1,16 @@
+CREATE VIEW tbl_kalimat_times_vw AS
 SELECT DISTINCT
 a.id_kalimat,
 a.kalimat,
-b.nama_event
+b.waktu
+--count(*)
 FROM tbl_kalimat a
-JOIN tbl_event b
+JOIN tbl_times b
 ON a.id_kalimat = b.id_kalimat
-WHERE a.is_correct = 1 and b.is_valid = 1 
+WHERE a.is_correct = 1 and b.is_valid = 1 --and b.is_correct = 1
 order by a.id_kalimat
+
+select * from tbl_times
 
 /*
 SELECT DISTINCT 
