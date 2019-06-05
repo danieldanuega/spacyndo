@@ -9,8 +9,8 @@ Dropout: 0.3  Batch size: 97  Iterations: 1000
 
 
 BEFORE     0.012     
-Correct    [38;5;77m13[0m
-Incorrect  [38;5;197m1031[0m
+Correct    13
+Incorrect  1031
 Entities   3946      
 Unknown    3933      
 
@@ -1017,8 +1017,8 @@ Unknown    3933
 999        0.032      573        471        2414       0          0.549     
 1000       0.026      569        475        2358       0          0.545     
 
-Correct    [38;5;77m607[0m
-Incorrect  [38;5;197m437[0m
+Correct    607
+Incorrect  437
 Baseline   0.012     
 Accuracy   0.581     
 
