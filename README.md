@@ -3,7 +3,17 @@ Welcome to this repository research project, this project is a project for my fi
 
 ## Datasets
 In this project I use third party datasets for building the model:
-- Dependency Parser used Indonesian GSD dataset from [Universal Dependencies](http://universaldependencies.org/#download)
-- Named Entity Recognition (NER) used NER dataset from [BahasaID](https://alert.id/bahasaid/)
+- Dependency Parser and Named Entity Recognition (NER) use Indonesian GSD dataset from [Universal Dependencies](http://universaldependencies.org/#download)
+
+## How to
+For now the model is ready for Dep. Parser but still to be updated for NER. 
+You can use the current model in dep-ner-spacy-id/Models/NVIDIA GTX 1080/NER/Gold-standard Model
+
+Use the folder id_ud-tag-dep-ner-1.0.0 for accessing the model. 
+Just copy the folder to your project and call spacy.load(“id_ud-tag-dep-ner-1.0.0”). 
+
+You can see the SpaCy document to how to use the function inside the model. 
+
+
 
 Copyright (c) 2018 Daniel Chrisna Danuega. Release Under New BSD License.
