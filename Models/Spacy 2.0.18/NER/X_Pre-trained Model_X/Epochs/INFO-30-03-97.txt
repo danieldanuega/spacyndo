@@ -1,0 +1,70 @@
+TRAIN SCRIPT
+
+ time prodigy ner.batch-train ner_id_train_1 id_ud-tag-dep-ner-1.0.0/ --output NER\ Model/Pre-trained\ Model/30-03-97/ --n-iter 30 --dropout 0.3 --batch-size 97
+ 
+Loaded model id_ud-tag-dep-ner-1.0.0/
+Using 20% of accept/reject examples (400) for evaluation
+Using 100% of remaining examples (1746) for training
+Dropout: 0.3  Batch size: 97  Iterations: 30
+
+
+EPOCHS
+
+#          LOSS       RIGHT      WRONG      ENTS       SKIP       ACCURACY
+01         2.370      145        899        406        0          0.139
+02         1.756      277        767        681        0          0.265
+03         1.559      353        691        959        0          0.338
+04         1.468      390        654        1351       0          0.374
+05         1.282      422        622        1083       0          0.404
+06         1.221      465        579        1064       0          0.445
+07         1.235      484        560        1122       0          0.464
+08         1.184      513        531        1650       0          0.491
+09         1.097      526        518        1931       0          0.504
+10         1.127      544        500        1211       0          0.521
+11         1.083      553        491        1342       0          0.530
+12         1.024      556        488        1387       0          0.533
+13         0.936      561        483        1514       0          0.537
+14         0.853      568        476        1468       0          0.544
+15         0.756      570        474        1777       0          0.546
+16         0.682      584        460        1795       0          0.559
+17         0.621      583        461        1885       0          0.558
+18         0.592      591        453        1924       0          0.566
+19         0.575      584        460        2047       0          0.559
+20         0.538      590        454        2140       0          0.565
+21         0.509      597        447        2169       0          0.572
+22         0.494      595        449        2277       0          0.570
+23         0.483      595        449        2240       0          0.570
+24         0.432      594        450        2359       0          0.569
+25         0.412      598        446        2190       0          0.573
+26         0.408      594        450        2197       0          0.569
+27         0.391      594        450        2286       0          0.569
+28         0.384      591        453        2344       0          0.566
+29         0.352      590        454        2280       0          0.565
+30         0.317      585        459        2320       0          0.560
+
+
+TIME EXEC
+
+real    10m15.882s
+user    27m14.145s
+sys     27m56.751s
+
+
+RESULT
+
+Correct    598
+Incorrect  446
+Baseline   0.012
+Accuracy   0.573
+
+
+DATASET
+
+  Dataset            ner_id_train_1
+  Created            2019-04-28 18:17:30
+  Description        A gold-standard dataset for making pre-trained NER model to make annotating remaining id_gsd-ud-train.jsonl faster using ner.teach. It consists 2000 examples
+  Author             Daniel_Chrisna_Danuega
+  Annotations        2021  
+  Accept             2000  
+  Reject             3
+  Ignore             18

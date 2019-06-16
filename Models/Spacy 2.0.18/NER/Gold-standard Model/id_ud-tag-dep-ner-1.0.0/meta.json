@@ -1,0 +1,23 @@
+{
+  "lang":"id",
+  "name":"ud-tag-dep-ner",
+  "version":"1.0.0",
+  "spacy_version":">=2.0.18",
+  "description":"",
+  "author":"Daniel Chrisna Danuega",
+  "email":"",
+  "url":"",
+  "license":"",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":"spacy_pretrained_vectors"
+  },
+  "pipeline":[
+    "sbd",
+    "tagger",
+    "parser",
+    "ner"
+  ]
+}

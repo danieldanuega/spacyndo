@@ -1,0 +1,30 @@
+{
+  "lang":"id",
+  "pipeline":[
+    "tagger",
+    "parser"
+  ],
+  "spacy_version":">=2.1.4",
+  "speed":{
+    "nwords":12616,
+    "cpu":13606.2832849891,
+    "gpu":13544.7400861295
+  },
+  "accuracy":{
+    "uas":83.0091156846,
+    "las":74.9083732732,
+    "ents_p":0.0,
+    "ents_r":0.0,
+    "ents_f":0.0,
+    "tags_acc":92.4318950089,
+    "token_acc":99.3421052632
+  },
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":"spacy_pretrained_vectors"
+  },
+  "name":"ud-tag-dep-ner",
+  "version":"1.0.0"
+}
