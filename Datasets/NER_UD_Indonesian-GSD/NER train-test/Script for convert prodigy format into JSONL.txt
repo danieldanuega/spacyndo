@@ -1,0 +1,4 @@
+prodigy ner.gold-to-spacy ner_id_train_dev NER\ Model/ner-train.jsonl
+
+
+prodigy ner.gold-to-spacy ner_id_test NER\ Model/ner-test.jsonl
