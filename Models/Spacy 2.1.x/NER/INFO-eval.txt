@@ -1,0 +1,18 @@
+prodigy ner.eval eval id_ud-tag-dep-ner-1.0.0/id_ud-tag-dep-ner/id_ud-tag-dep-ner-1.0.0/ ner_id_test.jsonl --exclude eval
+
+
+  ✨  Dataset 'eval'
+
+Dataset       eval
+Created       2019-06-22 04:49:41
+Description   None
+Author        None
+Annotations   1317
+Accept        1006
+Reject        311
+Ignore        0
+
+
+Acc = Accept / Annotations x 100%
+Acc = 1006 / 1317 x 100%
+Acc = 76.38%
