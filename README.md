@@ -23,5 +23,11 @@ You can use the current model in:
 Use the folder id_ud-tag-dep-ner-1.0.0 for accessing the model. 
 Just copy the folder to your project and call spacy.load(“id_ud-tag-dep-ner-1.0.0”). 
 
+## API
+I've made a public API for you to try, check my repo first: `https://github.com/danielgo13/dep-ner-api`
+
+## GraphQL
+I've also made a public GraphQL that you can try or implement in your web `spacy-id-ql.herokuapp.com/graphql`
+
 
 Copyright (c) 2019 Daniel Chrisna Danuega. Release Under New BSD License.
