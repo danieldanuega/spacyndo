@@ -28,6 +28,17 @@ I've made a public API for you to try, check my repo first: `https://github.com/
 
 ## GraphQL
 I've also made a public GraphQL that you can try or implement in your web `spacy-id-ql.herokuapp.com/graphql`
+Example:
+`
+{
+  doPrediction(text:"Gempa bumi hari ini dengan kekuatan magnitudo 4,1 guncang selatan Kairatu, Kabupaten Seram Bagian Barat, Provinsi Maluku, Senin (10/7/2019) pukul 10:21 WIT."){
+    ner {
+      token
+      label
+    }
+  }
+}
+`
 
 
 Copyright (c) 2019 Daniel Chrisna Danuega. Release Under New BSD License.
