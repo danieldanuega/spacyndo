@@ -41,4 +41,4 @@ Example:
 `
 
 
-Copyright (c) 2019 Daniel Chrisna Danuega. Release Under New BSD License.
+Copyright (c) 2019 Daniel Chrisna Danuega. Release Under MIT License.
