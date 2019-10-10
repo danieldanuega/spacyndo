@@ -12,13 +12,13 @@ For how to install the model there are 2 methods:
 ### Install the package
 You can run python setup.py sdist from the directory to turn your model into an installable archive file.
 ````    
-cd dep-ner-spacy-id/Models/Spacy 2.1.x/NER/id_ud-tag-dep-ner-1.0.0/
+cd spacyndo/Models/Spacy 2.1.x/NER/id_ud-tag-dep-ner-1.0.0/
 python setup.py sdist
 pip install dist/id_ud-tag-dep-ner-1.0.0.tar.gz
 ````
 ### Copy the folder's model into yout project
 You can use the current model in: 
-`dep-ner-spacy-id/Models/Spacy 2.1.x/NER/id_ud-tag-dep-ner-1.0.0/id_ud-tag-dep-ner/id_ud-tag-dep-ner-1.0.0/`
+`spacyndo/Models/Spacy 2.1.x/NER/id_ud-tag-dep-ner-1.0.0/id_ud-tag-dep-ner/id_ud-tag-dep-ner-1.0.0/`
 
 Use the folder id_ud-tag-dep-ner-1.0.0 for accessing the model. 
 Just copy the folder to your project and call spacy.load(“id_ud-tag-dep-ner-1.0.0”). 
